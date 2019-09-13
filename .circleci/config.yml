@@ -10,6 +10,11 @@ jobs:
       - run:
           name: List files
           command: |
+            bundle --version      
+      
+      - run:
+          name: List files
+          command: |
             ls > file-list.txt
 
       - store_artifacts:
