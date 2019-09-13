@@ -11,11 +11,16 @@ jobs:
           name: Install Jekyll dependencies
           command: |
             bundle --path vendor/bundle
-      
+
+      - run:
+          name: Create Static Webpage with Jekyll
+          command: |
+            bundle exec jekyll build
+
       - run:
           name: List files
           command: |
-            ls > file-list.txt
+            ls _site > file-list.txt
 
       - store_artifacts:
           path: file-list.txt
