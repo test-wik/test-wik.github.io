@@ -4,20 +4,13 @@ jobs:
     docker:
       - image: circleci/ruby:2.4.1
 
-    working_directory: /tmp
     steps:
       - checkout
-      
+
       - run:
-          name: Creating Dummy Artifacts
-          command: |
-            echo "my artifact file" > /tmp/artifact-1;
-            mkdir /tmp/artifacts;
-            echo "my artifact files in a dir" > /tmp/artifacts/artifact-2;
+          name: Greeting
+          command: echo Hello, world.
 
-      - store_artifacts:
-          path: /tmp/artifact-1
-          destination: artifact-file
-
-      - store_artifacts:
-          path: /tmp/artifacts
+      - run:
+          name: Print the Current Time
+          command: date
