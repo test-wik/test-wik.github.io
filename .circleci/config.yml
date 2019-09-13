@@ -6,7 +6,6 @@ jobs:
 
     working_directory: /tmp
     steps:
-      - checkout
       
       - run:
           name: Creating Dummy Artifacts
