@@ -6,11 +6,17 @@ jobs:
 
     steps:
       - checkout
+      
+      - run:
+          name: Install Jekyll dependencies
+          command: |
+            bundle --path vendor/bundle
 
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: Create Static Webpage with Jekyll
+          command: |
+            bundle exec jekyll build
 
-      - run:
-          name: Print the Current Time
-          command: date
+      - store_artifacts:
+          path: _site
+          destination: site
