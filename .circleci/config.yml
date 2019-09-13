@@ -8,9 +8,9 @@ jobs:
       - checkout
       
       - run:
-          name: List files
+          name: Install Jekyll dependencies
           command: |
-            bundle --version      
+            bundle --path vendor/bundle
       
       - run:
           name: List files
