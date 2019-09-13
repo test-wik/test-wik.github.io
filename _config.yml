@@ -1,2 +1,3 @@
 name: Test Wik GitHub Pages
+markdown: kramdown
 theme: jekyll-theme-slate
