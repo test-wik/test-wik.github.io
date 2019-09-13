@@ -17,10 +17,5 @@ jobs:
           command: |
             bundle exec jekyll build
 
-      - run:
-          name: List files
-          command: |
-            ls _site > file-list.txt
-
       - store_artifacts:
-          path: file-list.txt
+          path: _site
