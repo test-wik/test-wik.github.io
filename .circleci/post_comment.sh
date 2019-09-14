@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PR_API_URL=${echo -n ${CIRCLE_PULL_REQUEST} | sed sed -e 's_github.com_api.github.com/repos_g' -e 's/pull/issues/g' }
+PR_API_URL="$(echo -n ${CIRCLE_PULL_REQUEST} | sed sed -e 's_github.com_api.github.com/repos_g' -e 's/pull/issues/g')"
 
 
 echo "Posting to ${PR_API_URL}"
