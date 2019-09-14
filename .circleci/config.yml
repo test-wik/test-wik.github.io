@@ -25,6 +25,7 @@ jobs:
       - run:
           name: Post Message back to CR
           command: |
+            echo "Posting to https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/issues/$CIRCLE_PR_NUMBER/comments"
             curl --request POST \
               --url "https://api.github.com/repos/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME/issues/$CIRCLE_PR_NUMBER/comments" \
               --header 'accept: application/vnd.github.v3+json' \
