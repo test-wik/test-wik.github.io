@@ -25,13 +25,7 @@ jobs:
       - run:
           name: Post Message back to CR
           command: |
-            echo "Posting to https://api.github.com/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/issues/${CIRCLE_PR_NUMBER}/comments"
-            curl --request POST \
-              --url "https://api.github.com/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/issues/${CIRCLE_PR_NUMBER}/comments" \
-              --header 'accept: application/vnd.github.v3+json' \
-              --header 'content-type: application/json' \
-              -u JoachimK:${GITHUB_ACCESS_TOKEN} \
-              --data "{\"body\": \"Your preview for commit \`${CIRCLE_SHA1}\` can be found here: https://circleci.com/api/v1.1/project/github/test-wik/test-wik.github.io/${CIRCLE_BUILD_NUM}/artifacts/0/site/index.html \"}"
+            .circleci/post_comment.sh
 
       - store_artifacts:
           path: _site
