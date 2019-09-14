@@ -25,6 +25,7 @@ jobs:
       - run:
           name: Post Message back to CR
           command: |
+            chmod +x .circleci/post_comment.sh
             .circleci/post_comment.sh
 
       - store_artifacts:
