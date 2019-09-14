@@ -3,7 +3,7 @@
 PR_API_URL=${echo -n ${CIRCLE_PULL_REQUEST} | sed sed -e 's_github.com_api.github.com/repos_g' -e 's/pull/issues/g' }
 
 
-echo "Posting to https://api.github.com/repos/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}/issues/${CIRCLE_PR_NUMBER}/comments"
+echo "Posting to ${PR_API_URL}"
 curl --request POST \
   --url "${PR_API_URL}/comments" \
   --header 'accept: application/vnd.github.v3+json' \
