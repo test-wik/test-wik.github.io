@@ -17,6 +17,17 @@ jobs:
           command: |
             bundle exec jekyll build --config _config.yml,_config_prs.yml
 
+      - run:
+          name: Print Link to Preview Site
+          command: |
+            echo "https://circleci.com/api/v1.1/project/github/test-wik/test-wik.github.io/${CIRCLE_BUILD_NUM}/artifacts/0/site/index.html"
+
+      - run:
+          name: Post Message back to CR
+          command: |
+            chmod +x .circleci/post_comment.sh
+            .circleci/post_comment.sh
+
       - store_artifacts:
           path: _site
           destination: site
