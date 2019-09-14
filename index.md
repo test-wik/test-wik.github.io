@@ -7,5 +7,5 @@ title: Test Wik Startseite
 Dies ist die erste Seite die ein Nutzer sieht.
 
 {% for page in site.pages %}
-  <a href={{ page.url | relative_url}}>page.title</a>
+  <a href="{{ page.url | relative_url}}">{{page.title}}</a>
 {% endfor %}
