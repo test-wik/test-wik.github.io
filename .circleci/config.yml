@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Create Static Webpage with Jekyll
           command: |
-            bundle exec jekyll build
+            bundle exec jekyll build --config _config.yml,_config_prs.yml
 
       - store_artifacts:
           path: _site
