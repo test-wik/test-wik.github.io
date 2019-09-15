@@ -65,7 +65,7 @@ workflows:
   version: 2.1
   build-website-and-store:
     jobs:
-      - install_dependencies:
+      - install_dependencies
       - build_website:
           requires:
             - install_dependencies
