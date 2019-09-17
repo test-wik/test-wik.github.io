@@ -9,4 +9,4 @@ curl --request POST \
   --header 'accept: application/vnd.github.v3+json' \
   --header 'content-type: application/json' \
   -u JoachimK:${GITHUB_ACCESS_TOKEN} \
-  --data "{\"body\": \"Your preview for commit \`${CIRCLE_SHA1}\` can be found here: https://circleci.com/api/v1.1/project/github/test-wik/test-wik.github.io/${CIRCLE_BUILD_NUM}/artifacts/0/site/index.html \"}"
+  --data "{\"body\": \"Your preview for commit ${CIRCLE_SHA1} can be found here: https://circleci.com/api/v1.1/project/github/test-wik/test-wik.github.io/${CIRCLE_BUILD_NUM}/artifacts/0/site/index.html \"}"
