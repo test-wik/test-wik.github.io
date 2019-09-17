@@ -41,6 +41,12 @@ jobs:
           command : |
             bundle --path vendor/bundle
 
+      - run: 
+          name: Configure BaseURL
+          command : |
+            rm _config_prs.yml
+            echo "baseurl: /${CIRCLE_BUILD_NUM}" >> _config_prs.yml
+
       - run:
           name: Create Static Webpage with Jekyll
           command: |
