@@ -14,7 +14,7 @@ Du wirst bei der Registrierung gefragt welche "Subscription" du wählen möchtes
 #### Mitgliedschaft in der test-wik Organisation 
 Die Website liegt in einem sogenannten **Repository**. Das sind in diesem Fall all die Dateien unter https://github.com/test-wik/test-wik.github.io inklusive aller [vorheriger Versionen](https://github.com/test-wik/test-wik.github.io/commits/master). Um die Website zu ändern musst du die [Dateien im Repository](https://github.com/test-wik/test-wik.github.io) ändern. Und um das zu können, musst du Mitglied der [test-wik Gruppe](https://github.com/orgs/test-wik/people) sein.
 
-Daher melde dich bitte nach dem Erstellen deines Accounts kurz im Forum und sende deinen GitHub Accountnamen an joachim, damit er dich zur test-wik Gruppe einladen und dir die richtigen Zugriffsrechte geben kann. 
+Daher melde dich bitte nach dem Erstellen deines Accounts kurz in [diesem Thema im Forum](https://forum.stadtteilgenossenschaft-wik.de/t/website-bauen-mit-github-pages-test/136) und schreibe dort deinen GitHub Accountnamen, damit du zur test-wik Gruppe einladen und du die richtigen Zugriffsrechte bekommst. 
 
 ### Änderungen machen
 
