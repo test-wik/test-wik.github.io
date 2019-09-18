@@ -33,7 +33,7 @@ Probiere ruhig etwas herum, du kannst nichts kaputt machen, denn
 1. werden deine Änderungen in einer separaten Version gespeichert, die nicht die Hauptversion ist
 2. Ist dies hier nur eine Test-Website die dazu gedacht ist Dinge auszuprobieren
 
-Die Art und Weise wie du Formatierungen beschreibst nennt sich Markdown (siehe unten). Um eine Idee zu bekommen wie deine Änderungen formatiert aussehen (z.B. fett, Überschriften, Links, Bilder) und welche Änderungen du gemacht hast, klicke auf den "Preview changes" tab oben links. 
+Die Art und Weise wie du Formatierungen beschreibst nennt sich [Markdown](#markdown) (siehe unten). Um eine Idee zu bekommen wie deine Änderungen formatiert aussehen (z.B. fett, Überschriften, Links, Bilder) und welche Änderungen du gemacht hast, klicke auf den "Preview changes" tab oben links. 
 
 ![Screenshot of Preview Changes Mode](doc-images/preview-changes.png)
 
