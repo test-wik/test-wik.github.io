@@ -20,7 +20,7 @@ Daher melde dich bitte nach dem Erstellen deines Accounts kurz im Forum und send
 
 #### Editor
 
-Sobald du Mitglieder der test-wik Gruppe bist und somit Änderungen machen kannst, kannst du irgendeine der Dateien wählen und editieren. Das geht indem du auf eine der Dateien klickst und dann oben rechts auf den Stift klickst.
+Sobald du Mitglied der test-wik Gruppe bist und somit Änderungen machen kannst, kannst du irgendeine der Dateien wählen und editieren. Das geht indem du auf eine der Dateien klickst und dann oben rechts auf den Stift klickst.
 
 ![Screenshot of Edit button](doc-images/edit-button.png)
 
