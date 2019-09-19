@@ -63,7 +63,11 @@ Du kannst deine Variante auch noch weiter editieren ohne einen Pull-Request zu e
 Nun passieren zwei Dinge. 
 
 #### Vorschau
-Zum einen wird ein Bot gestartet, der die Website neuberechnet mit deinen Änderungen. Der Bot wird nach der Fertigstellung einen Kommentar mit einem Link zur Vorschau deiner Änderungen zu deinem Pull Request schreiben. Das alles geklappt hat siehst du auch an dem grünen Haken unter "All checks have passed". Klicke auf den Link, um zu sehen wie die Website aussehen würde, wenn deine Änderungen übernommen würden. 
+Zum einen wird ein Bot gestartet, der die Website neuberechnet mit deinen Änderungen. Der Bot wird nach der Fertigstellung einen Kommentar mit einem Link zur Vorschau deiner Änderungen zu deinem Pull Request schreiben. 
+
+![Screenshot of Preview Link](doc-images/preview-link.png)
+
+Das alles geklappt hat siehst du auch an dem grünen Haken unter "All checks have passed". Klicke auf den Link, um zu sehen wie die Website aussehen würde, wenn deine Änderungen übernommen würden. 
 
 #### Review
 Außerdem sehen jetzt alle anderen welche Änderungen du vorschlägst. Sie können sich die Änderungen an den Dateien ansehen und auch die Vorschau. Dieser Prozess der Prüfung durch eine(n) Andere(n) nennt sich "Review". Und wenn sie damit einverstanden sind, können sie deinen Pull Request "bestätigen".
@@ -79,7 +83,7 @@ Sobald du die Bestätigung eines anderen Mitglied bekommen hast und sofern der e
 
 ![Merged PR](doc-images/pr-merged.png)
 
-Klicke noch auf den "Delete branch" Button um deine Arbeitsvariante zu löschen, denn diese ist nun Teil der "Hauptversion" und wird nicht mehr benötigt. 
+Klicke noch auf den "Delete branch" Button um deine Arbeitsvariante zu löschen, denn diese ist nun Teil der "Hauptversion" und wird nicht mehr benötigt. Das ist nicht zwingend nötig, macht es aber einfacher für alle den Überblick zu behalten, an welchen Varianten gerade gearbeitet wird.
 
 Mit dem Übernehmen der Änderungen in die Hauptversion wird die Website aktualisiert. Dies kann ein paar Minuten dauern. Die aktuelle Version der Website findest du unter http://test-wik.github.io.
 
