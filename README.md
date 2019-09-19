@@ -1,5 +1,12 @@
 ## Willkommen zum Stadtteilgenossenschaft Wik GitHub Pages Testen
 
+* [Voraussetzungen zum Mitmachen](#voraussetzungen-zum-mitmachen)
+* [Änderungen machen](#änderungen-machen)
+* [Mehrere Dateien gleichzeitig ändern](#mehrere-dateien-gleichzeitig-ändern)
+* [Neue Seiten anlegen](#neue-seiten-anlegen)
+* [Bilder hinzufügen](#bilder-hinzufügen)
+* [Markdown](#markdown)
+
 ### Voraussetzungen zum Mitmachen
 
 * Browser
