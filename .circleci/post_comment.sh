@@ -9,4 +9,4 @@ curl --request POST \
   --header 'accept: application/vnd.github.v3+json' \
   --header 'content-type: application/json' \
   -u JoachimK:${GITHUB_ACCESS_TOKEN} \
-  --data "{\"body\": \"Your preview for commit ${CIRCLE_SHA1} can be found here: https://preview.stadtteilgenossenschaft-wik.de/${CIRCLE_BUILD_NUM}/ \"}"
+  --data "{\"body\": \"Deine Vorschau für deinen Commit ${CIRCLE_SHA1} findest du hier: https://preview.stadtteilgenossenschaft-wik.de/${CIRCLE_BUILD_NUM}/ \"}"
