@@ -2,7 +2,7 @@
 
 Die Dateien in diesem "Projekt" bilden zusammen eine Website die wir als Testbasis für die spätere Website der Stadtteilgenossenschaft W(ir) i(m) K(iez) nutzen. Wenn du schon weißt wie man mit GitHub und GitHub Pages umgeht, probiere gerne etwas herum. 
 
-Ansonsten [schaue einfach in das Wiki](wiki) hier um zu erfahren, wie du deine ersten Änderungen machen kannst. 
+Ansonsten [schaue einfach in das Wiki](/test-wik/test-wik.github.io/wiki) hier um zu erfahren, wie du deine ersten Änderungen machen kannst. 
 
 Die aktuelle Website die aus diesem Projekt erstellt wurde findest du hier: https://test-wik.github.io.
 
