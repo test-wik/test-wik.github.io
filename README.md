@@ -17,7 +17,7 @@ Oben über dieser Datei siehst du normalerweise alle Dateien in diesem Projekt. 
 - `Gemfile` und `Gemfile.lock`: Diese Dateien enthalten Informationen wo der Website-Generator die notwendigen Softwarekomponenten zur Generierung der Website findet. Du wirst sie vermutlich selten anpassen müssen. 
 - `.gitignore`: Diese Datei enthält Informationen welche Dateien GitHub ignorieren kann. Das ist nur relevant, wenn du GitHub nicht im Browser benutzt, sondern über ein lokales Git-Programm auf deinem Rechner.
 - `doc-images`: Dieser Ordner enthält Bilder die im Wiki benutzt werden und wird für die Website selber nicht benutzt
-- `_posts`: Hier liegen die Dateien für die [Blogposts](wiki/Blogpost-schreiben).
+- `_posts`: Hier liegen die Dateien für die [Blogposts](/test-wik/test-wik.github.io/wiki/Blogpost-schreiben).
 - `.circleci`: Hier sind Dateien, die für die Generierung der Vorschau wichtig sind. Du kannst sie vermutlich ignorieren. 
 
 ### Hilfe und Kontakt
