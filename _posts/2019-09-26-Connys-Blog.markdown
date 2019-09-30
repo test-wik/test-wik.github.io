@@ -6,3 +6,5 @@ categories: Test
 author: Conny
 ---
 Seit heute habe ich unzählige graue Haare mehr, weil so eine Website halt doch nicht so einfach ist.
+
+Vier Tage sind nun vergangen und ich kann mich tatsächlich noch an das erinnern, was Joachim mir mit viel Geduld beigebracht hat!
