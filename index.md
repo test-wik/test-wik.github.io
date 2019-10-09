@@ -6,6 +6,16 @@ title: Test Wik Startseite
 # Test Wik
 Dies ist die erste Seite die ein *Nutzer* sieht. 
 
-Hier sollte also eine kurze *Übersicht* stehen. 
+Der Nutzer soll später folgenden Unterpunkte sehen: 
 
-Hallo, das ist die erste Änderung von Jens 
+**Wohnen** : kurze Beschreibung 
+
+**Arbeit**
+
+**Soziales**
+
+**Kultur**
+
+**Gemeinschaft** 
+
+ 
