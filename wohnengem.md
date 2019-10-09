@@ -3,4 +3,4 @@ layout: page
 permalink: /wohnengem/
 ---
 
-Mattias ist hier der beste Ansprechpartner. 
+Matthias ist hier der beste Ansprechpartner. 
