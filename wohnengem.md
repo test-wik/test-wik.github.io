@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Gemeinschaftliches Wohnen 
+layout: page 
 permalink: /wohnengem/
 ---
 
