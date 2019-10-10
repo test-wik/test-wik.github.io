@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Arbeit
+title: Arbeit und Gewerbe
 permalink: /arbeit/
 ---
 
